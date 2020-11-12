@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script src="../christmascore.js"></script>
+        <script src="../christmascoreutils.js"></script>
+    </head>
+    <script>
+        function getDays() {
+            var christmas = new christmascore("24", false);
+            console.log("Theres: " + christmas.UntilChristmas() + " until christmas.");
+            var choosen = christmas.SecretSantaSelector(["James", "Jack", "Jared", "Matt", "Kate", "Jake", "Fred", "Jaiden"]);
+            console.log(choosen);
+            console.log(christmas.Isitdecember());
+            console.log(christmas.Greeting());
+            console.log(christmas.UntilDecemeber());
+        }
+    </script>
+    <body onload="getDays()">
+        <p>christmasjs</p>
+		<p>open the console.</p>
+    </body>
+</html>
