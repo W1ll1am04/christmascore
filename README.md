@@ -25,11 +25,6 @@ Clone and Include it:
 <script src="christmascore.js"></script>
 ```
 
-Or alternatively:
-```
-<script src=""></script>
-```
-
 ### **Usage**
 Specify what day of december you want to be christmas day, for me thats the 24th:
 
