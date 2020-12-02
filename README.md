@@ -28,7 +28,7 @@ Clone and Include it:
 ### **Usage**
 Specify what day of december you want to be christmas day, for me thats the 24th:
 
-Optionally you dont have to specify this, because it defaults to false.
+Optionally you dont have to specify the last parameter (debug), because it defaults to false.
 ```
 var christmas = new christmascore("24", false);
 ```
